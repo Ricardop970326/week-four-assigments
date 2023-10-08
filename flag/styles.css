@@ -1,0 +1,76 @@
+body{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+ 
+#title{
+  background-color: brown;
+  color: ivory;
+  text-align: center;
+   margin: 0%;
+}
+
+.flagbox{
+  padding-left: 5px;
+}
+
+table{
+  margin: 42.5px 5px;
+  border: 3px solid black;
+height: 500px;
+width: 800px;
+}
+
+
+#red{
+  background-color: red;
+  
+}
+
+#white{
+  background-color: whitesmoke;
+
+}
+
+.stars{
+  position: fixed;
+  top: 84.9px;
+  left: 15.5px;
+}
+
+@media screen and (max-width: 390px) {
+  /* Styles for mobile devices */
+  table{
+    width: 98%;
+    height: 220px;
+    padding-left: 0;
+  }
+  img {
+    height: 111.5px;
+    width: 110px;
+  }
+}
+@media screen and (min-width: 391px) and (max-width:1023px){
+  /*style for TABLE*/
+  table {
+    width: 98%;
+    height: 450px;
+    padding-left: 0;
+  }
+  img {
+    height: 236px;
+    width: 220px ;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* Styles for desktop devices */
+   table {
+    width: 85%;
+    height: 800px;
+  }
+  img {
+    height: 424px;
+    width: 520px ;
+  }
+}
