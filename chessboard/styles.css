@@ -29,30 +29,25 @@ header, #title{
 
 .wchess:nth-child(odd) {
    background-color: whitesmoke;
-    /*width: 100px;
-    height:100px;*/
+
 }
 .wchess:nth-child(even){
    background-color: rgb(91, 17, 17);
-   /* width: 100px;
-    height:100px;*/
+
 }
 
 .bchess:nth-child(odd) {
     background-color: rgb(91, 17, 17);
-   /* width: 100px;
-    height:100px;*/
+
 }
 .bchess:nth-child(even){
     background-color: whitesmoke;
-    /*width: 100px;
-    height:100px;*/
+
 }
 
 
 
 @media screen and (max-width: 390px) {
-    /* Styles for mobile devices */
     .chess .wchess, .chess .bchess {
     width: 20px;
     height: 20px;  
