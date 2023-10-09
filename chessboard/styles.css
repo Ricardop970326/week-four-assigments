@@ -23,7 +23,7 @@ header, #title{
     grid-template-columns: repeat(8, 1fr);
 }
 
-.chess {
+.chess > div {
    border: solid black;
 }
 
