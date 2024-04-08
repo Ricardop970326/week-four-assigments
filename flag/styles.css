@@ -34,7 +34,7 @@ width: 800px;
 }
 
 .stars{
-  position: fixed;
+  position: absolute;
   top: 84.9px;
   left: 15.5px;
 }
